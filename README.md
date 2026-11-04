@@ -5,16 +5,16 @@ Macht Einzelbilder aus Collagen – komplett lokal im Browser. Zusatz-Tool zur [
 ## Was es tut
 
 - **Collage reinziehen** (JPG/PNG/WEBP): ein Bild mit mehreren Panels – Comic-Collage, Foto-Grid …
-- **Raster festlegen:** Spalten × Reihen (z. B. 6 × 4 für 24 Panels)
-- **Rand abschneiden:** 0–12 % pro Seite – weiße Stege verschwinden
-- **Panels an-/abwählen:** per Klick auf die Vorschau; für unregelmäßige Collagen einfach überzählige Zellen deaktivieren
-- **Speichern als JPG:** Original-Pixelgröße, 92 % Qualität, zeilenweise nummeriert in Lesereihenfolge: `name_panel-01.jpg`, `name_panel-02.jpg` …
+- **Raster-Modus:** Spalten × Reihen (bis 12 × 12), Rand je Panel (0–8 %) – weiße Stege verschwinden. Panels per Klick an-/abwählen.
+- **Bereich abschneiden:** Titel- oder Fußzeilen (oben/unten) und Seitenränder (links/rechts) in Prozent entfernen, bevor das Raster gelegt wird – z. B. Comics mit Titelzeile: „oben“ auf ca. 10 %.
+- **Freies Zuschneiden (Neu):** für unregelmäßige Comics und Collagen – jedes Panel mit gedrückter Maustaste als Rechteck aufziehen, Aufzieh-Reihenfolge = Nummerierung, Klick auf ein Panel entfernt es.
+- **Speichern als JPG:** Original-Pixelgröße, 92 % Qualität, nummeriert: `name_panel-01.jpg`, `name_panel-02.jpg` …
 
 ## Workflow
 
 1. `index.html` öffnen und Collage reinziehen oder anklicken.
-2. Spalten × Reihen und Rand-Anteil wählen, „Raster anwenden“.
-3. Überflüssige Panels per Klick abwählen (dunkel = wird nicht gespeichert).
+2. Modus wählen: Raster (regelmäßige Grids) oder Freies Zuschneiden (unregelmäßige Layouts).
+3. Raster: Spalten × Reihen + Bereich/Ränder einstellen, „Raster anwenden“, überflüssige Panels abwählen. Frei: Panels der Reihe nach aufziehen.
 4. „Panels als JPG speichern“ – der Browser fragt evtl. einmal nach Erlaubnis für mehrere Downloads, mit OK bestätigen.
 5. Einzelbilder in die [VideoSchmiede](https://github.com/adrgrie-lgtm/Videoschmiede) ziehen – jedes Bild wird eine Filmszene.
 
